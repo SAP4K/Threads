@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/root/Consumer_Product/build",
+  "command": "/usr/bin/c++  -I/root/Consumer_Product/headers -g -o CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o -c /root/Consumer_Product/main.cpp",
+  "file": "/root/Consumer_Product/main.cpp"
+},
+{
+  "directory": "/root/Consumer_Product/build",
+  "command": "/usr/bin/c++  -I/root/Consumer_Product/headers -g -o CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o -c /root/Consumer_Product/src/Product.cpp",
+  "file": "/root/Consumer_Product/src/Product.cpp"
+},
+{
+  "directory": "/root/Consumer_Product/build",
+  "command": "/usr/bin/c++  -I/root/Consumer_Product/headers -g -o CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o -c /root/Consumer_Product/src/Production.cpp",
+  "file": "/root/Consumer_Product/src/Production.cpp"
+},
+{
+  "directory": "/root/Consumer_Product/build",
+  "command": "/usr/bin/c++  -I/root/Consumer_Product/headers -g -o CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o -c /root/Consumer_Product/src/console.cpp",
+  "file": "/root/Consumer_Product/src/console.cpp"
+},
+{
+  "directory": "/root/Consumer_Product/build",
+  "command": "/usr/bin/c++  -I/root/Consumer_Product/headers -g -o CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o -c /root/Consumer_Product/src/consumer.cpp",
+  "file": "/root/Consumer_Product/src/consumer.cpp"
+}
+]

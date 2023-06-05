@@ -1,0 +1,5 @@
+/root/Consumer_Product/build/CMakeFiles/Thread_Consumer_Product.dir
+/root/Consumer_Product/build/CMakeFiles/edit_cache.dir
+/root/Consumer_Product/build/CMakeFiles/rebuild_cache.dir
+/root/Consumer_Product/build/headers/CMakeFiles/edit_cache.dir
+/root/Consumer_Product/build/headers/CMakeFiles/rebuild_cache.dir
