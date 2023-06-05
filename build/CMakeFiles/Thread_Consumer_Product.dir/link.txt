@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o -o Thread_Consumer_Product 
+/usr/bin/c++ -g CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o -o Thread_Consumer_Product 

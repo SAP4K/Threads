@@ -755,7 +755,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/root/Consumer_Product/build/headers"
+			"value" : "/root/Consumer_Product/build"
 		},
 		{
 			"name" : "Thread_Consumer_Product_IS_TOP_LEVEL",
@@ -1139,7 +1139,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "OFF"
+			"value" : "ON"
 		},
 		{
 			"name" : "Thread_Consumer_Product_SOURCE_DIR",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/root/Consumer_Product/headers"
+			"value" : "/root/Consumer_Product"
 		}
 	],
 	"kind" : "cache",

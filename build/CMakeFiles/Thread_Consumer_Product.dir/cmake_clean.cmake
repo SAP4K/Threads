@@ -1,14 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o"
   "CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o.d"
-  "CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o"
-  "CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o.d"
-  "CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o"
-  "CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o.d"
-  "CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o"
-  "CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o.d"
-  "CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o"
-  "CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o.d"
+  "CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o"
+  "CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o.d"
+  "CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o"
+  "CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o.d"
   "Thread_Consumer_Product"
   "Thread_Consumer_Product.pdb"
 )

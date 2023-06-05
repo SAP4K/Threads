@@ -69,10 +69,38 @@ include CMakeFiles/Thread_Consumer_Product.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Thread_Consumer_Product.dir/flags.make
 
+CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/flags.make
+CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o: ../src/Logger.cpp
+CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Consumer_Product/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o -MF CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o.d -o CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o -c /root/Consumer_Product/src/Logger.cpp
+
+CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Consumer_Product/src/Logger.cpp > CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.i
+
+CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Consumer_Product/src/Logger.cpp -o CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.s
+
+CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/flags.make
+CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o: ../src/CustomGuard.cpp
+CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Consumer_Product/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o -MF CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o.d -o CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o -c /root/Consumer_Product/src/CustomGuard.cpp
+
+CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Consumer_Product/src/CustomGuard.cpp > CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.i
+
+CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Consumer_Product/src/CustomGuard.cpp -o CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.s
+
 CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/flags.make
 CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Consumer_Product/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Consumer_Product/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o -MF CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o.d -o CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o -c /root/Consumer_Product/main.cpp
 
 CMakeFiles/Thread_Consumer_Product.dir/main.cpp.i: cmake_force
@@ -83,81 +111,21 @@ CMakeFiles/Thread_Consumer_Product.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Consumer_Product.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Consumer_Product/main.cpp -o CMakeFiles/Thread_Consumer_Product.dir/main.cpp.s
 
-CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/flags.make
-CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o: ../src/Product.cpp
-CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Consumer_Product/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o -MF CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o.d -o CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o -c /root/Consumer_Product/src/Product.cpp
-
-CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Consumer_Product/src/Product.cpp > CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.i
-
-CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Consumer_Product/src/Product.cpp -o CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.s
-
-CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/flags.make
-CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o: ../src/Production.cpp
-CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Consumer_Product/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o -MF CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o.d -o CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o -c /root/Consumer_Product/src/Production.cpp
-
-CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Consumer_Product/src/Production.cpp > CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.i
-
-CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Consumer_Product/src/Production.cpp -o CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.s
-
-CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/flags.make
-CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o: ../src/console.cpp
-CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Consumer_Product/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o -MF CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o.d -o CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o -c /root/Consumer_Product/src/console.cpp
-
-CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Consumer_Product/src/console.cpp > CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.i
-
-CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Consumer_Product/src/console.cpp -o CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.s
-
-CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/flags.make
-CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o: ../src/consumer.cpp
-CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o: CMakeFiles/Thread_Consumer_Product.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Consumer_Product/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o -MF CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o.d -o CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o -c /root/Consumer_Product/src/consumer.cpp
-
-CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Consumer_Product/src/consumer.cpp > CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.i
-
-CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Consumer_Product/src/consumer.cpp -o CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.s
-
 # Object files for target Thread_Consumer_Product
 Thread_Consumer_Product_OBJECTS = \
-"CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o" \
-"CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o" \
-"CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o" \
-"CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o" \
-"CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o"
+"CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o" \
+"CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o" \
+"CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o"
 
 # External object files for target Thread_Consumer_Product
 Thread_Consumer_Product_EXTERNAL_OBJECTS =
 
+Thread_Consumer_Product: CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o
+Thread_Consumer_Product: CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o
 Thread_Consumer_Product: CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o
-Thread_Consumer_Product: CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o
-Thread_Consumer_Product: CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o
-Thread_Consumer_Product: CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o
-Thread_Consumer_Product: CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o
 Thread_Consumer_Product: CMakeFiles/Thread_Consumer_Product.dir/build.make
 Thread_Consumer_Product: CMakeFiles/Thread_Consumer_Product.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Consumer_Product/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Thread_Consumer_Product"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Consumer_Product/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Thread_Consumer_Product"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Thread_Consumer_Product.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

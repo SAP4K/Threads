@@ -9,10 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/Consumer_Product/main.cpp" "CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o" "gcc" "CMakeFiles/Thread_Consumer_Product.dir/main.cpp.o.d"
-  "/root/Consumer_Product/src/Product.cpp" "CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o" "gcc" "CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o.d"
-  "/root/Consumer_Product/src/Production.cpp" "CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o" "gcc" "CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o.d"
-  "/root/Consumer_Product/src/console.cpp" "CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o" "gcc" "CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o.d"
-  "/root/Consumer_Product/src/consumer.cpp" "CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o" "gcc" "CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o.d"
+  "/root/Consumer_Product/src/CustomGuard.cpp" "CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o" "gcc" "CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o.d"
+  "/root/Consumer_Product/src/Logger.cpp" "CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o" "gcc" "CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o.d"
   )
 
 # Targets to which this target links.

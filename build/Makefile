@@ -153,101 +153,53 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Product.o: src/Product.cpp.o
-.PHONY : src/Product.o
+src/CustomGuard.o: src/CustomGuard.cpp.o
+.PHONY : src/CustomGuard.o
 
 # target to build an object file
-src/Product.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.o
-.PHONY : src/Product.cpp.o
+src/CustomGuard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.o
+.PHONY : src/CustomGuard.cpp.o
 
-src/Product.i: src/Product.cpp.i
-.PHONY : src/Product.i
+src/CustomGuard.i: src/CustomGuard.cpp.i
+.PHONY : src/CustomGuard.i
 
 # target to preprocess a source file
-src/Product.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.i
-.PHONY : src/Product.cpp.i
+src/CustomGuard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.i
+.PHONY : src/CustomGuard.cpp.i
 
-src/Product.s: src/Product.cpp.s
-.PHONY : src/Product.s
+src/CustomGuard.s: src/CustomGuard.cpp.s
+.PHONY : src/CustomGuard.s
 
 # target to generate assembly for a file
-src/Product.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/Product.cpp.s
-.PHONY : src/Product.cpp.s
+src/CustomGuard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/CustomGuard.cpp.s
+.PHONY : src/CustomGuard.cpp.s
 
-src/Production.o: src/Production.cpp.o
-.PHONY : src/Production.o
+src/Logger.o: src/Logger.cpp.o
+.PHONY : src/Logger.o
 
 # target to build an object file
-src/Production.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.o
-.PHONY : src/Production.cpp.o
+src/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.o
+.PHONY : src/Logger.cpp.o
 
-src/Production.i: src/Production.cpp.i
-.PHONY : src/Production.i
-
-# target to preprocess a source file
-src/Production.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.i
-.PHONY : src/Production.cpp.i
-
-src/Production.s: src/Production.cpp.s
-.PHONY : src/Production.s
-
-# target to generate assembly for a file
-src/Production.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/Production.cpp.s
-.PHONY : src/Production.cpp.s
-
-src/console.o: src/console.cpp.o
-.PHONY : src/console.o
-
-# target to build an object file
-src/console.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.o
-.PHONY : src/console.cpp.o
-
-src/console.i: src/console.cpp.i
-.PHONY : src/console.i
+src/Logger.i: src/Logger.cpp.i
+.PHONY : src/Logger.i
 
 # target to preprocess a source file
-src/console.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.i
-.PHONY : src/console.cpp.i
+src/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.i
+.PHONY : src/Logger.cpp.i
 
-src/console.s: src/console.cpp.s
-.PHONY : src/console.s
-
-# target to generate assembly for a file
-src/console.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/console.cpp.s
-.PHONY : src/console.cpp.s
-
-src/consumer.o: src/consumer.cpp.o
-.PHONY : src/consumer.o
-
-# target to build an object file
-src/consumer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.o
-.PHONY : src/consumer.cpp.o
-
-src/consumer.i: src/consumer.cpp.i
-.PHONY : src/consumer.i
-
-# target to preprocess a source file
-src/consumer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.i
-.PHONY : src/consumer.cpp.i
-
-src/consumer.s: src/consumer.cpp.s
-.PHONY : src/consumer.s
+src/Logger.s: src/Logger.cpp.s
+.PHONY : src/Logger.s
 
 # target to generate assembly for a file
-src/consumer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/consumer.cpp.s
-.PHONY : src/consumer.cpp.s
+src/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Consumer_Product.dir/build.make CMakeFiles/Thread_Consumer_Product.dir/src/Logger.cpp.s
+.PHONY : src/Logger.cpp.s
 
 # Help Target
 help:
@@ -261,18 +213,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/Product.o"
-	@echo "... src/Product.i"
-	@echo "... src/Product.s"
-	@echo "... src/Production.o"
-	@echo "... src/Production.i"
-	@echo "... src/Production.s"
-	@echo "... src/console.o"
-	@echo "... src/console.i"
-	@echo "... src/console.s"
-	@echo "... src/consumer.o"
-	@echo "... src/consumer.i"
-	@echo "... src/consumer.s"
+	@echo "... src/CustomGuard.o"
+	@echo "... src/CustomGuard.i"
+	@echo "... src/CustomGuard.s"
+	@echo "... src/Logger.o"
+	@echo "... src/Logger.i"
+	@echo "... src/Logger.s"
 .PHONY : help
 
 

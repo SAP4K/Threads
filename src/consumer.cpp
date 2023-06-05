@@ -5,6 +5,14 @@ Consumer::Consumer(ProductPool* pool_of_products, Console* console,int set_id_pr
     this->product_thread = std::thread(&Consumer::run, this,pool_of_products, console, set_id_product);
 };
 
+Consumer::~Consumer()
+{
+	if (this->product_thread.joinable())
+	{
+		this->product_thread.join();
+	} 
+}
+
 void Consumer::run(ProductPool* pool_of_products, Console* console,int set_id_product)
 {
     bool* check_if_exist_product = nullptr;

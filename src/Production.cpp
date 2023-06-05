@@ -12,6 +12,14 @@ Production::Production(ProductPool* pool_of_products, Console* console,int set_i
 	this->product_thread = std::thread(&Production::run, this,pool_of_products, console, set_id_product);
 }
 
+Production::~Production()
+{
+	if (this->product_thread.joinable())
+	{
+		this->product_thread.join();
+	} 
+}
+
 void Production::run(ProductPool* pool_of_products,Console* console,int product_id)
 {
 	while (true) 
